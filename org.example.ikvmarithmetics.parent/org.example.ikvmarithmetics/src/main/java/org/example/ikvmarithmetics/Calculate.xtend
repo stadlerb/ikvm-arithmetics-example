@@ -8,8 +8,8 @@ class Calculate {
             return
         }
 
-        val contextFilenames = args.take(args.length - 1).toList
-        val expressionText = args.last
+        val expressionText = args.head
+        val contextFilenames = args.tail.toList
 
         // 2. Do standalone setup
         val injector = new ArithmeticsStandaloneSetup().createInjectorAndDoEMFRegistration()
