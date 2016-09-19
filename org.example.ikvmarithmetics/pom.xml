@@ -11,6 +11,7 @@
 	
 	<properties>
 	   <org.example.ikvmarithmetics.mainClassName>org.example.ikvmarithmetics.Calculate</org.example.ikvmarithmetics.mainClassName>
+	   <org.example.ikvmarithmetics.outputExecutableName>calculator.exe</org.example.ikvmarithmetics.outputExecutableName>
 	</properties>
 
 	<build>
@@ -170,6 +171,7 @@
 							<workingDirectory>${project.build.directory}</workingDirectory>
 							<arguments>
 								<argument>${project.build.finalName}.jar</argument>
+								<argument>-out:${org.example.ikvmarithmetics.outputExecutableName}</argument>
 							</arguments>
 						</configuration>
 					</execution>

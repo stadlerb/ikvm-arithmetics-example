@@ -11,7 +11,7 @@
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<ikvm.home>C:/apps/ikvm-8.1.5717.0</ikvm.home>
+		<ikvm.home>${user.home}/ikvm</ikvm.home>
 		<ikvm.dlls.dir>${ikvm.home}/bin</ikvm.dlls.dir>
 		<ikvm.path>${ikvm.home}/bin/ikvmc.exe</ikvm.path>
 	</properties>
