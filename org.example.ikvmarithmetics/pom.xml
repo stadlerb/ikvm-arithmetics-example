@@ -8,10 +8,10 @@
 	</parent>
 	<artifactId>org.example.ikvmarithmetics</artifactId>
 	<packaging>jar</packaging>
-	
+
 	<properties>
-	   <org.example.ikvmarithmetics.mainClassName>org.example.ikvmarithmetics.Calculate</org.example.ikvmarithmetics.mainClassName>
-	   <org.example.ikvmarithmetics.outputExecutableName>calculator.exe</org.example.ikvmarithmetics.outputExecutableName>
+		<org.example.ikvmarithmetics.mainClassName>org.example.ikvmarithmetics.Calculate</org.example.ikvmarithmetics.mainClassName>
+		<org.example.ikvmarithmetics.outputExecutableName>calculator.exe</org.example.ikvmarithmetics.outputExecutableName>
 	</properties>
 
 	<build>
@@ -92,7 +92,7 @@
 							<goal>shade</goal>
 						</goals>
 						<configuration>
-						    <createDependencyReducedPom>false</createDependencyReducedPom>
+							<createDependencyReducedPom>false</createDependencyReducedPom>
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
@@ -241,6 +241,11 @@
 			<artifactId>org.eclipse.xtext.xtext.generator</artifactId>
 			<version>${xtextVersion}</version>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.beust</groupId>
+			<artifactId>jcommander</artifactId>
+			<version>1.48</version>
 		</dependency>
 	</dependencies>
 </project>
