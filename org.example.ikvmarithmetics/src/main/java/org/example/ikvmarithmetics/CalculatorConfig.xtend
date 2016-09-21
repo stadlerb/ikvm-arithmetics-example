@@ -10,7 +10,7 @@ class CalculatorConfig {
 	String filename
 
 	@Parameter(names=#["--import", "-i"], description="Files to be imported when using -e/--expression")
-	List<String> imports
+	List<String> imports = emptyList
 
 	@Parameter(names=#["--expression", "-e"], description="Expression to be interpreted")
 	String expression
