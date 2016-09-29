@@ -139,7 +139,4 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
-	<dependencies>
-	</dependencies>
 </project>
