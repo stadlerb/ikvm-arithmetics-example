@@ -11,7 +11,7 @@
 
 	<properties>
 		<org.example.ikvmarithmetics.mainClassName>org.example.ikvmarithmetics.CalculatorCLI</org.example.ikvmarithmetics.mainClassName>
-		<org.example.ikvmarithmetics.outputFileName>>calculator.exe</org.example.ikvmarithmetics.outputFileName>
+		<org.example.ikvmarithmetics.outputFileName>calculator.exe</org.example.ikvmarithmetics.outputFileName>
 	</properties>
 
 	<build>
